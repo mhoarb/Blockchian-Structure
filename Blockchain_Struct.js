@@ -20,7 +20,7 @@ class Blockchain {
   }
 
   createGenesisBlock() {
-    return new Block(0, '01/01/2022', 'Genesis Block', '0');
+    return new Block(0, '11/24/2023', 'Genesis Block', '0');
   }
 
   getLatestBlock() {
@@ -51,10 +51,5 @@ class Blockchain {
   }
 }
 
+module.exports = { Blockchain, Block };
 
-const myBlockchain = new Blockchain();
-myBlockchain.addBlock(new Block(1, '02/01/2022', { amount: 4 }));
-myBlockchain.addBlock(new Block(2, '03/01/2022', { amount: 8 }));
-
-console.log(JSON.stringify(myBlockchain, null, 2));
-console.log('Is blockchain valid? ' + myBlockchain.isChainValid());
