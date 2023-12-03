@@ -1,6 +1,18 @@
 {
-    "scripts": {
+  "scripts": {
     "test": "jest"
+  },
+  "name": "blockchian-structure",
+  "description": "for test this file write :",
+  "version": "1.0.0",
+  "main": "Blockchain_Struct.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0"
   }
 }
-  
