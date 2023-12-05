@@ -41,6 +41,7 @@ class Block {
     console.log(`Block mined: ${this.hash}`);
   }
 }
+//edit this to easyer 
 
 class Blockchain {
   constructor() {
